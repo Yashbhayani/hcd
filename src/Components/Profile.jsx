@@ -19,7 +19,7 @@ const Profile = (props) => {
       GetAmount();
       setInterval(() => {
         setloader(false);
-      }, 1000);
+      }, 2000);
     } else {
       navigate("/signup");
     }
