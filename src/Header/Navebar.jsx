@@ -23,7 +23,7 @@ const Navebar = () => {
       <div className="container-fluid">
         <Link
           className="navbar-brand"
-          href="/"
+          to="/"
           style={{
             color: "blue",
             fontFamily: '"Arizonia"',
