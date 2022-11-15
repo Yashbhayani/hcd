@@ -1,0 +1,15 @@
+// export const host = "http://localhost:5000";
+export const host = "https://homecreaditanddebitbackend.vercel.app";
+export const register = `${host}/auth/register`;
+export const otpverification = `${host}/auth/otpverification`;
+export const login = `${host}/auth/login`;
+export const amount = `${host}/useramount/amount`;
+export const getamount = `${host}/useramount/getamount`;
+export const updateamount = `${host}/useramount/updateamount`;
+export const deleteamount = `${host}/useramount/deleteamount`;
+export const getallamount = `${host}/allamount/getallamount`;
+export const getselectedamount = `${host}/allamount/getselectedamount`;
+export const updateselectedamount = `${host}/allamount/updateselectedamount`;
+export const deleteselectedamount = `${host}/allamount/deleteselectedamount`;
+export const addfeedback = `${host}/feedback/addfeedback`;
+export const getfeedback = `${host}/feedback/getfeedback`;
