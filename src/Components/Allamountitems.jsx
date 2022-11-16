@@ -161,7 +161,7 @@ const Allamountitems = () => {
             <div className="col p-3">
               <h4 className="text-danger">
                 {DRdata !== 0 ? (
-                  <>Total Debit Amount :- {DRdataS} Cr</>
+                  <>Total Debit Amount :- {DRdataS} Dr</>
                 ) : (
                   <>Debit amount is not added</>
                 )}
@@ -235,7 +235,7 @@ const Allamountitems = () => {
                           </h4>
                           <h4 className="text-danger">
                             {AllMonthDrData !== 0 ? (
-                              <>Total Debit Amount :- {AllMonthDrDataS} Cr</>
+                              <>Total Debit Amount :- {AllMonthDrDataS} Dr</>
                             ) : (
                               <>Debit amount is not added</>
                             )}
