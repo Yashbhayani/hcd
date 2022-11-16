@@ -179,7 +179,6 @@ const Registration = (props) => {
                           maxLength={10}
                           onChange={(e) => setmobile(e.target.value)}
                           id="inputMobile"
-                          required
                         />
                       </div>
                       <div className="col-md-7">
