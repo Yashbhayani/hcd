@@ -177,7 +177,6 @@ const Registration = (props) => {
                           className="form-control"
                           value={mobile}
                           maxLength={10}
-                          minLength={10}
                           onChange={(e) => setmobile(e.target.value)}
                           id="inputMobile"
                           required
