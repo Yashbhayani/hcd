@@ -427,7 +427,7 @@ const Home = (props) => {
             <div className="col p-3">
               <h5 className="text-danger">
                 {TodayDrAmount !== 0 ? (
-                  <>Total Debit Amount :- {TodayDrAmountS} Cr</>
+                  <>Total Debit Amount :- {TodayDrAmountS} Dr</>
                 ) : (
                   <>Debit amount is not added today!</>
                 )}
