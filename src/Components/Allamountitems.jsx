@@ -617,7 +617,7 @@ const Allamountitems = () => {
                             {allamount.totalyearCRamount.toLocaleString()} Cr
                           </p>
                           <p className="card-text text-danger">
-                            Total Credit Amount :-{" "}
+                            Total Debit Amount :-{" "}
                             {allamount.totalyearDRamount.toLocaleString()} Dr
                           </p>
                           <a
